@@ -1,76 +1,93 @@
-<><?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:background="@color/fondo"
+    android:background="@color/bluesito"
     android:layout_gravity="start"
-    tools:context=".MainActivity"><ImageView
-    android:layout_width="match_parent"
-    android:id="@+id/imageView"
-    android:layout_height="322dp"
-    android:layout_marginTop="0dp"
-    android:src="@drawable/fondo"/>
-    <EditText
-        android:id="@+id/etName"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_margin="12dp"
-        android:drawableStart="@drawable/baseline_person_24"
-        android:drawablePadding="12dp"
-        android:hint="@string/etName"
-        android:inputType="textPersonName"
-        android:textSize="25sp"/><Space
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
+    tools:context=".MainActivity">
 
-
-        ></Space>
-    <EditText
-        android:id="@+id/etName2"
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_margin="12dp"
-        android:drawableStart="@drawable/baseline_person_24"
-        android:drawablePadding="12dp"
-        android:hint="@string/email"
-        android:inputType="textPersonName"
-        android:textSize="25sp"/><Space
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/fondo"
+        android:elevation="0dp"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
-        ></Space>
-    <EditText
-        android:id="@+id/etName3"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_margin="12dp"
-        android:drawableStart="@drawable/baseline_person_24"
-        android:drawablePadding="12dp"
-        android:hint="@string/phone"
-        android:inputType="textPersonName"
-        android:textSize="25sp"/><Space
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="80dp"
+            android:src="@drawable/_04" />
 
-        ></Space>
+        <EditText
+            android:id="@+id/etName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="12dp"
+            android:drawableStart="@drawable/baseline_account_circle_24"
+            android:drawablePadding="12dp"
+            android:hint="@string/etName"
+            android:inputType="textPersonName"
+            android:textSize="25sp"/>
 
-    <Button
-        android:id="@+id/btnStart"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center|bottom"
-        android:text="@string/btn_start"
-        android:backgroundTint="@color/btn_bg"
-        android:drawableLeft="@drawable/baseline_arrow_back_24"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
 
+        <EditText
+            android:id="@+id/etName2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="12dp"
+            android:drawableStart="@drawable/baseline_alternate_email_24"
+            android:drawablePadding="12dp"
+            android:hint="@string/email"
+            android:inputType="textPersonName"
+            android:textSize="25sp"/>
 
-</LinearLayout>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+        <EditText
+            android:id="@+id/etName3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="12dp"
+            android:drawableStart="@drawable/baseline_add_call_24"
+            android:drawablePadding="12dp"
+            android:hint="@string/phone"
+            android:inputType="textPersonName"
+            android:textSize="25sp"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:gravity="center|bottom"
+            android:layout_centerInParent="true"
+            android:drawableLeft="@drawable/baseline_arrow_back_24" />
+    </LinearLayout>
+</RelativeLayout>

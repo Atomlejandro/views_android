@@ -9,8 +9,7 @@ import android.widget.RadioButton
 import android.widget.RadioGroup
 import android.widget.TextView
 import android.widget.Toast
-import kotlinx.coroutines.flow.internal.NoOpContinuation.context
-import kotlin.coroutines.jvm.internal.CompletedContinuation.context
+
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -30,7 +29,7 @@ class Radio_Button  : AppCompatActivity(), RadioGroup.OnCheckedChangeListener {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.radio_button)
-        rg = findViewById(R.id.rg)
+        rg = findViewById(R.id.rg1)
         rb1 = findViewById(R.id.rb1)
         rb2 = findViewById(R.id.rb2)
         rb3 = findViewById(R.id.rb3)

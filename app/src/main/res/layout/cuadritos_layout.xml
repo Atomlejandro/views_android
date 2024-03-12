@@ -1,48 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
 
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".Result">
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".Result">
 
-    <TextView
-        android:id="@+id/view1"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:textColor="@color/black"
-        android:background="@color/sol"
-        android:text="A"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:textAlignment="center"/>
+<TextView
+    android:id="@+id/view1"
+    android:layout_width="100dp"
+    android:layout_height="500dp"
+    android:textColor="@color/black"
+    android:background="@color/sol"
+    android:text="A"
+    android:textSize="35sp"
+    android:layout_alignParentEnd="true"
+    android:layout_alignParentTop="true"
+    android:textAlignment="center"/>
 
-    <TextView
-        android:id="@+id/view2"
-        android:layout_width="150dp"
-        android:layout_height="200dp"
-        android:text="B"
-        android:textColor="@color/black"
-        android:background="@color/Blue"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentTop="true"/>
+<TextView
+    android:id="@+id/view2"
+    android:layout_width="150dp"
+    android:layout_height="200dp"
+    android:text="B"
+    android:textSize="35sp"
+    android:textColor="@color/black"
+    android:background="@color/Blue"
+    android:layout_alignParentEnd="true"
+    android:layout_below="@id/view1"
+    />
 
-    <TextView
-        android:id="@+id/view3"
-        android:layout_width="400dp"
-        android:layout_height="200dp"
-        android:text="C"
-        android:background="@color/btn_bg"
-        android:layout_alignParentStart="true"
-        android:layout_below="@id/view2"/>
-    <TextView
-        android:layout_width="180dp"
-        android:layout_height="120dp"
-        android:id="@+id/view4"
-        android:text="D"
-        android:background="@color/bluesito"
-        android:textSize="35sp"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentStart="true"/>
+<TextView
+    android:id="@+id/view3"
+    android:layout_width="400dp"
+    android:layout_height="200dp"
+    android:text="C"
+    android:textSize="35sp"
+    android:background="@color/btn_bg"
+    android:layout_alignParentStart="true"
+    android:layout_above="@id/view2"/>
+<TextView
+    android:layout_width="120dp"
+    android:layout_height="100dp"
+    android:id="@+id/view4"
+    android:text="D"
+    android:background="@color/azulito"
+    android:textSize="35sp"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentStart="true"/>
 </RelativeLayout>

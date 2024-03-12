@@ -9,11 +9,11 @@
     android:layout_width="0dp"
     android:layout_height="wrap_content"
     android:layout_marginBottom="12dp"
-    android:background="@color/sol"
+    android:background="@color/red"
     android:gravity="center"
-    android:textSize="30sp"
+    android:textSize="25sp"
     android:text="Constant Text"
-    android:textColor="@color/Blue"
+    android:textColor="@color/white"
     app:layout_constraintBaseline_toTopOf="@id/scrolling"
     app:layout_constraintEnd_toEndOf="parent"
     app:layout_constraintStart_toStartOf="parent"/>
@@ -37,7 +37,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:text="Text in overflow"
-                android:textSize="60sp"/>
+                android:textSize="70sp"/>
             <TextView
                 android:id="@+id/txtview2"
                 android:layout_width="match_parent"
@@ -45,7 +45,7 @@
                 android:layout_margin="10dp"
                 android:text="Text in overflow"
 
-                android:textSize="60sp"/>
+                android:textSize="70sp"/>
             <TextView
                 android:id="@+id/txtview3"
                 android:layout_width="match_parent"
@@ -53,7 +53,7 @@
                 android:layout_margin="10dp"
                 android:text="Text in overflow"
 
-                android:textSize="60sp"/>
+                android:textSize="70sp"/>
             <TextView
                 android:id="@+id/txtview4"
                 android:layout_width="match_parent"
@@ -61,7 +61,7 @@
                 android:layout_margin="10dp"
                 android:text="Text in overflow"
 
-                android:textSize="60sp"/>
+                android:textSize="70sp"/>
             <TextView
                 android:id="@+id/txtview5"
                 android:layout_width="match_parent"
@@ -76,7 +76,7 @@
                 android:layout_margin="10dp"
                 android:text="Text in overflow"
 
-                android:textSize="60sp"/>
+                android:textSize="70sp"/>
             <TextView
                 android:id="@+id/txtview7"
                 android:layout_width="match_parent"
@@ -84,7 +84,7 @@
                 android:layout_margin="10dp"
                 android:text="Text in overflow"
 
-                android:textSize="60sp"/>
+                android:textSize="70sp"/>
             <TextView
                 android:id="@+id/txtview8"
                 android:layout_width="match_parent"
@@ -92,7 +92,7 @@
                 android:layout_margin="10dp"
                 android:text="Text in overflow"
 
-                android:textSize="60sp"/>
+                android:textSize="70sp"/>
             <TextView
                 android:id="@+id/txtview9"
                 android:layout_width="match_parent"
@@ -100,7 +100,7 @@
                 android:layout_margin="10dp"
                 android:text="Text in overflow"
 
-                android:textSize="60sp"/>
+                android:textSize="70sp"/>
 
 
 
