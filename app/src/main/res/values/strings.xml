@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">main_android_activity_2024-1</string>
+    <string name="etName">Last name</string>
+    .<string name="email">Email</string>
+    <string name="phone">Phone</string>
+    <string name="btn_start">Start</string>
+</resources>
